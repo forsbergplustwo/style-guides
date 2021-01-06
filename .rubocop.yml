@@ -1,7 +1,7 @@
 inherit_from:
-  - './rubocop/.rubocop-standard.yml'
-  - './rubocop/.rubocop-rails.yml'
-  - './rubocop/.rubocop-thread_safety.yml'
+  - https://raw.githubusercontent.com/forsbergplustwo/style-guides/master/rubocop/.rubocop-standard.yml
+  - https://raw.githubusercontent.com/forsbergplustwo/style-guides/master/rubocop/.rubocop-rails.yml
+  - https://raw.githubusercontent.com/forsbergplustwo/style-guides/master/rubocop/.rubocop-thread_safety.yml
 
 inherit_mode:
   merge:
