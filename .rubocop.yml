@@ -1,0 +1,13 @@
+inherit_from:
+  - './rubocop/.rubocop-standard.yml'
+  - './rubocop/.rubocop-rails.yml'
+  - './rubocop/.rubocop-thread_safety.yml'
+
+inherit_mode:
+  merge:
+    - Exclude
+
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-thread_safety
