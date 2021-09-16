@@ -775,7 +775,7 @@ Style/GlobalVars:
 
 Style/HashSyntax:
   Enabled: true
-  EnforcedStyle: ruby19_no_mixed_keys
+  EnforcedStyle: no_mixed_keys
 
 Style/IdenticalConditionalBranches:
   Enabled: true
@@ -790,6 +790,9 @@ Style/IfWithSemicolon:
   Enabled: true
 
 Style/InfiniteLoop:
+  Enabled: true
+
+Style/KeywordParametersOrder:
   Enabled: true
 
 Style/LambdaCall:
