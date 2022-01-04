@@ -1,7 +1,9 @@
 AllCops:
   TargetRubyVersion: 2.7
   DisabledByDefault: true
-  Exclude: []
+  Exclude:
+    - 'db/**/*'
+    - 'bin/**/*'
   SuggestExtensions: false
 
 Bundler/OrderedGems:
@@ -193,6 +195,10 @@ Layout/MultilineBlockLayout:
 Layout/MultilineHashBraceLayout:
   Enabled: true
   EnforcedStyle: symmetrical
+
+Layout/MultilineMethodCallBraceLayout:
+  Enabled: true
+  EnforcedStyle: new_line
 
 Layout/MultilineMethodCallIndentation:
   Enabled: true
