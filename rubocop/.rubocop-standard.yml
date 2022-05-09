@@ -520,9 +520,6 @@ Lint/UriRegexp:
 Lint/UselessAssignment:
   Enabled: true
 
-Lint/UselessElseWithoutRescue:
-  Enabled: true
-
 Lint/UselessSetterCall:
   Enabled: true
 
